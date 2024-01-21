@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BaseDatosInterna.Views.ProductosPage"
+             Title="ProductosPage">
+    <VerticalStackLayout>
+        <Image
+    Source="data:image/png;base64,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"
+    HeightRequest="50"
+    HorizontalOptions="Fill" BackgroundColor="Black"/>
+
+        <HorizontalStackLayout HorizontalOptions="Center">
+
+            <Label 
+                 FontAttributes="Bold"
+                 Text="Productos"
+                 FontSize="30"
+                 VerticalOptions="Center" 
+                 HorizontalOptions="Center" 
+                 TextColor="DarkCyan"/>
+        </HorizontalStackLayout>
+
+        <Button
+            x:Name="CounterBtn"
+            Text="Agregar producto"
+            FontSize="20"
+            HorizontalOptions="Fill" BackgroundColor="DarkCyan" 
+            Command="{Binding CrearProducto}"/>
+
+        <ListView x:Name="ListaProducto"
+                  RowHeight="80" 
+                  ItemSelected="OnClickShowDetails"
+                  ItemsSource="{Binding ListaProductos}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal">
+                            <Image  Source="data:image/png;base64,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"
+                                    HeightRequest="50"/>
+
+                            <StackLayout Orientation="Vertical">
+
+                                <Label Text="{Binding Nombre}" VerticalOptions="Start" FontSize="20" FontAttributes="Bold"/>
+                                <Label Text="{Binding Cantidad}" VerticalOptions="End" FontSize="20"/>
+
+                            </StackLayout>
+                        </StackLayout>
+
+                    </ViewCell>
+
+                </DataTemplate>
+            </ListView.ItemTemplate>
+
+        </ListView>
+    </VerticalStackLayout>
+</ContentPage>

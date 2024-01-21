@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BaseDatosInterna.Views.NuevoProductoPage"
+             Title="NuevoProductoPage">
+    <VerticalStackLayout>
+        <Image
+            Source="data:image/png;base64,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"
+            HeightRequest="50"
+            HorizontalOptions="Fill" BackgroundColor="Black"/>
+
+        <HorizontalStackLayout HorizontalOptions="Center">
+
+            <Label 
+                FontAttributes="Bold"
+                Text="Agregar Producto"
+                FontSize="30"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" 
+                TextColor="DarkCyan"/>
+        </HorizontalStackLayout>
+        <TableView>
+            <TableRoot>
+                <TableSection Title="Ingrese los datos para un nuevo producto:" TextColor="DarkCyan"  >
+                    <EntryCell x:Name="Nombre"
+                               Text="{Binding Nombre}"
+                           Placeholder="Nombre"/>
+                    <EntryCell x:Name="Cantidad"
+                               Text="{Binding Cantidad}"
+                           Placeholder="Cantidad"
+                           />
+                    <EntryCell x:Name="Descripcion"
+                               Text="{Binding Descripcion}"
+                           Placeholder="Descripcion"/>
+                </TableSection>
+            </TableRoot>
+        </TableView>
+        <Button Text="Guardar Producto"
+            Command="{Binding GuardarProducto}" BackgroundColor="DarkCyan"
+            />
+
+    </VerticalStackLayout>
+</ContentPage>
